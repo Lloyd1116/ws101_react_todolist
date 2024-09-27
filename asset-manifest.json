@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/https//Lloyd1116.github.io/ws101_react_todolist/static/css/main.76366de3.css",
-    "main.js": "/https//Lloyd1116.github.io/ws101_react_todolist/static/js/main.8b9df08c.js",
-    "index.html": "/https//Lloyd1116.github.io/ws101_react_todolist/index.html",
-    "main.76366de3.css.map": "/https//Lloyd1116.github.io/ws101_react_todolist/static/css/main.76366de3.css.map",
-    "main.8b9df08c.js.map": "/https//Lloyd1116.github.io/ws101_react_todolist/static/js/main.8b9df08c.js.map"
+    "main.css": "/ws101_react_todolist/static/css/main.76366de3.css",
+    "main.js": "/ws101_react_todolist/static/js/main.8b9df08c.js",
+    "index.html": "/ws101_react_todolist/index.html",
+    "main.76366de3.css.map": "/ws101_react_todolist/static/css/main.76366de3.css.map",
+    "main.8b9df08c.js.map": "/ws101_react_todolist/static/js/main.8b9df08c.js.map"
   },
   "entrypoints": [
     "static/css/main.76366de3.css",
