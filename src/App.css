@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container styles */
+.container {
+  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App wrapper styles */
+.app-wrapper {
+  background-color: black;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px ghostwhite;
+  margin-bottom: 10px;
+}
+
+/* Header styles */
+.header h1 {
+  color: white;
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* Input styles */
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: wheat; /* Light color for input text */
+  background-color: black; /* Black background for input */
+  border: 1px solid skyblue;
+  border-radius: 10px;
+}
+
+/* Button styles */
+.button-add {
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+/* List item styles */
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 50px;
+}
+
+/* Task text styles */
+.list {
+  width: 220px; /* Adjust width if necessary */
+  color: wheat; /* Light color for visibility */
+  font-size: 20px; /* Font size for tasks */
+  padding-left: 10px; /* Padding for better layout */
+  margin-right: 15px; /* Space between elements */
+}
+
+/* Completed task styles */
+.complete {
+  text-decoration: line-through; /* Line-through for completed tasks */
+  color: burlywood; /* Change color for completed tasks for visibility */
+}
+
+/* Button styles for complete, edit, delete */
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.button-complete {
+  color: yellowgreen;
+  margin-right: 10px;
+}
+
+.button-edit {
+  color: yellow;
+  margin-right: 10px;
+}
+
+.button-delete {
+  color: red;
+}
+
+/* Focus styles */
+input:focus,
+button:focus {
+  outline: none;
+}
